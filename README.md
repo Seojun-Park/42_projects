@@ -3,6 +3,15 @@
 ## Overview
 ---
 
-<p>42 is a private, nonprofilt and tuition-free computer programming school where does not have lectures or practical work supervised by teachers. Students carry out projects proposed by the pedagogic team, and are free to organise their own time.</p>
+All projects that I have finished while I'm studying in 42
+
+---
+
+### Libft
+
+---
+
+libft is the first project at 42 that demands us to re-create some standard C library function.
+At 42, all students are not allowed to use some standard libraries for finishing projects, therefore, we have to keep updating this library to go further in the 42 program.
 
 ---
