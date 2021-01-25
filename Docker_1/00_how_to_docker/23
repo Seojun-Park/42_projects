@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 22:20:02 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/10 14:02:05 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+23. Create an overlay-type internal network that you will name overmind.
+
+	A. docker network create -d overlay overmind

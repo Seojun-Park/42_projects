@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 14:21:13 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/09 14:33:12 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+5. Launch the hello-world container, and make sure that it prints its welcome message, the leaves it.
+
+	A. docker run hello-world

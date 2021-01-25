@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 15:12:20 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/09 15:31:19 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+8. Launch a shell from an alpine container, and make sure that you can insteract
+	directly with the container via your terminal, and that the container deletes
+	itself once the shell's execution is done.
+
+	A. docker run -it --rm alpine /bin/ash 

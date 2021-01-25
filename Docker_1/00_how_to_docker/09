@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    09                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 15:33:43 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/09 15:37:12 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+9. Fro the shell of a debian container, install via the container's package
+	manager everything you need to compile C source code and push it onto a git
+	repo (of course, make sure before that the package manager an the packages
+	already in the container are updated). For this exercise, you should only
+	specify the commands to be run directly in the container.
+
+		A. apt-get update / apt-get upgrade -y /
+			apt-get install -y build-essential git

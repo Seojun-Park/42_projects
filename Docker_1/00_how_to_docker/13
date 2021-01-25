@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 16:06:05 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/09 16:11:14 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+13. Print the environment variables of the spawning-pool container in one command,
+	to be sure that you have confitured your container properly.
+
+		A. docker inspect -f "{{.Config.Env}}" spawning-pool

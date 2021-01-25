@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    27                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/10 14:42:45 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/10 15:34:18 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+27. Get the real-time logs of one the tasks of the engineering-bay service.
+
+	A. docker service logs -f $(docker service ps engineering-bay -f "name=engineering
+		-bay.1")

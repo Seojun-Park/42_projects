@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 13:29:54 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/09 17:36:34 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+1. Create a virtual machine with docker-machine using the virtualbox driver, and
+	named Char.
+
+	A. docker-machine create --driver virtualbox Char

@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 13:32:28 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/09 13:43:26 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+
+2. Get the IP address of the Char virtual machine.
+	A. docker-machine env Char | grep tcp | cut -c 27- | cut -d ":" -f 1
+	or
+		docker-machine ip Char

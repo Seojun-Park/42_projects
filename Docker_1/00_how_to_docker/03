@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jinpark <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/07/09 14:00:28 by jinpark           #+#    #+#              #
+#    Updated: 2019/07/09 17:40:30 by jinpark          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#/!/bin/bash
+
+3. Define the ariables needed by yor virtual machine Char in the env of
+	your terminal, so that you can run the docker ps command without
+	errors. You have to fix all four environment variables with one
+	command, and you are not allowed to use your shell's builtin to set
+	these vriables by hand.
+	
+	A. eval $(docker-machine env Char)
