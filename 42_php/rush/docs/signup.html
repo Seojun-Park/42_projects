@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Rush</title>
+
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/auth.css" />
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="cover"></div>
+            <div id="logo">
+                <a href="index.php">Logo</a></div>
+            <div class="col">
+                <div class="menu">
+                    <div id="box">
+                        <a href="items.php">
+                                    item1</a>
+                    </div>
+                    <div id="box">
+                        <a href="items.php">
+                                    item2</a>
+                    </div>
+                    <div id="box">
+                        <a href="items.php">
+                                    item3</a>
+                    </div>
+                    <div id="box">
+                        <a href="items.php">
+                                    item4</a>
+                    </div>
+                    <div id="box">
+                        <a href="qna.php">
+                                    QnA
+                                </a>
+                    </div>
+                </div>
+                <div class="col_sm">
+                    <div id="col_sm_box">
+                        <?php
+                                if ($login == FALSE) {
+                                ?>
+                            <a href="login.html">
+                                        LOGIN</a>
+                            <?php
+                                } else {
+                                ?>
+                                <!-- <a href="#">LOGOUT</a> -->
+                                <form method="post">
+                                    <input type="submit" name="logout" id="logout" value="LOGOUT" />
+                                </form>
+                                <?php
+                                    if (array_key_exists('logout', $_POST)) {
+                                        session_destroy();
+                                        echo "<meta http-equiv='refresh' content='0;url=index.php'>";
+                                    }
+                                }
+                                ?>
+                    </div>
+                    <div id="col_sm_box">
+                        <?php
+                                if ($login == FALSE) {
+                                ?>
+                            <a href="signup.html">
+                                        JOIN US
+                                    </a>
+                            <?php
+                                } else {
+                                ?>
+                                <a href="#">MY PAGE</a>
+                                <?php
+                                }
+                                ?>
+                    </div>
+                    <div id="col_sm_box">
+                        <a href="cart.php">
+                                    CART
+                                </a>
+                    </div>
+                    <div id="col_sm_box">
+                        <a href="mypage.html">
+                                    MY PAGE
+                                </a>
+                    </div>
+                    <img src="https://img.icons8.com/ios/16/000000/search--v1.png" id="searchIcon" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="authCont">
+            <div class="signupBox">
+                <span id="authTitle">Sign Up</span>
+                <form method="POST" action="signup.php" class="authform">
+                    <table width="800" id="signupTable">
+                        <tr height="2" bgcolor="white" id="signupTr">
+                            <td colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <th id="signupTh">Name</th>
+                            <td id="signupTd"><input type="text" id="tableinput" name="name"></td>
+                        </tr>
+                        <tr>
+                            <th id="signupTh">ID</th>
+                            <td id="signupTd">
+                                <input type="text" name="login" id="tableinput">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th id="signupTh">Password</th>
+                            <td id="signupTd"><input type="password" id="tableinput" name="pw"></td>
+                        </tr>
+                        <tr>
+                            <th id="signupTh">Confirm Pass.</th>
+                            <td id="signupTd"><input type="password" id="tableinput" name="pw_re"></td>
+                        </tr>
+                        <tr>
+                            <th id="signupTh">E-mail</th>
+                            <td id="signupTd">
+                                <input type='email' name="email" id="tableinput">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th id="signupTh">Address</th>
+                            <td id="signupTd">
+                                <input type="text" name="addr_h" id="signup_addr" placeholder="address...">
+                                <input type="text" name="zip_h" id="addrinput" placeholder="zipcode...">
+                                <input type="text" name="city_h" id="addrinput" placeholder="city"><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th id="signupTh">Phone number</th>
+                            <td id="signupTd"><input type="text" name="tel" id="tableinput">
+                            </td>
+                        </tr>
+
+                        <tr height="2" bgcolor="white">
+                            <td colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center" id="buttons">
+                                <button id="signupButton" type="submit" name="submit" value="OK">Sign Up</button>
+                                <button id="signupButton" type="submit" name="submit" value="CANCEL">Cancel</button>
+                            </td>
+                        </tr>
+                    </table>
+                    </td>
+                    </tr>
+
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="copyright">&copy; 2020 <span id="green">Anthony</span>, <span id="pink">Saro</span>, <span id="blue">Jin</span>
+                <p>
+        </footer>
+    </div>
+</body>
+
+</html>

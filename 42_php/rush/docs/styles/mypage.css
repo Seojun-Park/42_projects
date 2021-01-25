@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Nanum+Gothic+Coding&family=PT+Sans&family=Red+Rose:wght@300&family=Titillium+Web&display=swap');
+
+/*---------------------------------------- Common ----------------------------------------*/
+
+.mypageCont {
+    margin-top: 15px;
+    padding: 15px 8px;
+    min-height: 80vh;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#authTitle {
+    font-family: "Anton", sans-serif;
+    color: #D5544B;
+    font-size: 36px;
+    margin: 25px 0;
+}
+
+.authform {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+#inputBox {
+    border-bottom: 1px solid gray;
+}
+
+#editButton {
+    width: 100px;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FAC5BC;
+    color: #562334;
+}
+
+
+/*---------------------------------------- Profile ----------------------------------------*/
+
+
+#profile {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
+.mypageBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: black;
+    box-shadow: 10px 10px 20px #e1e1e3;
+}
+
+#mypageTable {
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mypageTh {
+    border-right: 2px solid white;
+    font-family: "PT Sans", sans-serif;
+    padding-right: 15px;
+}
+
+#mypageTd {
+    font-family: "PT Sans", sans-serif;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+    margin-left: 15px;
+}
+
+
+

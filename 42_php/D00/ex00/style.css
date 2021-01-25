@@ -1,0 +1,186 @@
+@media (min-width: 1281px) {
+    body {
+        background-color: pink;
+    }
+
+    .title{
+        text-align: center;
+        color: white;
+    }
+    .imageContainer{
+        max-width: 2500px;
+    }
+
+    .imageContainer #row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:  center;
+    }
+
+    .imageContainer #row #fCol{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 100px;
+    }
+    
+
+    .imageContainer #row #fCol img{
+        width: 80%;
+        background-size: contain;
+        height: 220px;
+    }
+
+
+    .imageContainer #row #sCol{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 300px;
+
+        border-left: 2px solid gray;
+
+    }
+
+    .imageContainer #row #sCol img{
+        width: 80%;
+        background-size: cover;
+        padding: 30px;
+        padding-bottom: 100px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a .link:hover{
+        color:lightgreen;
+        transition: 0.2s linear;
+    }
+
+    .link {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+
+    .imageContainer #row #sCol a #link{
+        margin-top: 50px;
+    }
+    
+    footer {
+        margin-top: 25px;
+        border-top: 1px solid black;
+    }
+
+    footer span{
+        padding: 15px 0;
+        margin-right: 25px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        font-family: monospace;
+        font-style: italic;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        background-color: pink;
+    }
+
+    .title{
+        text-align: center;
+        color: white;
+    }
+
+    .imageContainer{
+        max-width: 1200px;
+    }
+
+    .imageContainer #row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:  center;
+    }
+
+    .imageContainer #row #fCol{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 100px;
+    }
+    
+
+    .imageContainer #row #fCol img{
+        width: 80%;
+        background-size: contain;
+        height: 220px;
+    }
+
+
+    .imageContainer #row #sCol{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 300px;
+
+        border-left: 2px solid gray;
+
+    }
+
+    .imageContainer #row #sCol img{
+        width: 80%;
+        background-size: cover;
+        padding: 30px;
+        padding-bottom: 100px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a .link:hover{
+        color:lightgreen;
+        transition: 0.2s linear;
+    }
+
+    .link {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+
+    .imageContainer #row #sCol a #link{
+        margin-top: 50px;
+    }
+    
+    footer {
+        margin-top: 25px;
+        border-top: 1px solid black;
+    }
+
+    footer span{
+        padding: 15px 0;
+        margin-right: 25px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        font-family: monospace;
+        font-style: italic;
+    }
+}

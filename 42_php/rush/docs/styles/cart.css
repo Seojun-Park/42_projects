@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Nanum+Gothic+Coding&family=PT+Sans&family=Red+Rose:wght@300&family=Titillium+Web&display=swap');
+#cart_nav {
+    border-bottom: 1.5px solid #E4E6EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+#cart_amount {
+    color: #BBBBB7;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#cart_content {
+    padding: 10px 10px;
+    width: 98%;
+    min-height: 50vh;
+}
+
+
+/* .cart_list {
+} */
+
+#cart_row {
+    height: 90px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid navy;
+}
+
+.cart_detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart_detail img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid violet;
+}
+
+.item_detail {
+    width: 70%;
+    height: 90px;
+}
+
+#item_title {
+    height: 40%;
+    padding: 0 15px;
+    font-size: 24px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    border-bottom: 1.5px solid gray;
+}
+
+#item_desc {
+    height: 60%;
+    padding: 0 15px;
+    font-size: 14px;
+    padding-top: 10px;
+    color: gray;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.cart_buttons {
+    width: 10%;
+}
+
+#cart_price {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#cart_del_button {
+    border: none;
+    background-color: #FAC5BC;
+    color: #562334;
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cart_del_button:hover {
+    background-color: lightseagreen;
+    color: white;
+    transition: 0.2s linear;
+}
+
+.cart_total {
+    border-top: 2px dotted black;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#cart_total_align {
+    padding-right: 50px;
+}
+
+#total_span {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#total_amount {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.cart_confirm {
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 2px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart_confirm_btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #FAC5BC;
+    color: #562334;
+    font-family: 'Nanum Gothic Coding', monospace;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#cart_confirm_btn:hover {
+    background-color: lightseagreen;
+    color: white;
+    transition: 0.2s linear;
+}

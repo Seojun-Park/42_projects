@@ -1,0 +1,265 @@
+/* item center align needed */
+
+
+/* Item showing page style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+#items_nav {
+    border-bottom: 1.5px solid #E4E6EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+#items_amount {
+    color: #BBBBB7;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#items_sort {
+    color: #BBBBB7;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#items_content {
+    padding: 10px 10px;
+    width: 98%;
+    border: 1px solid green;
+}
+
+.items_card {
+    border: 1px solid orange;
+    min-height: 100vh;
+}
+
+#card_box {
+    width: 350px;
+    height: 390px;
+    float: left;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+#card_Check {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -15px;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+.card_thumbnail {
+    padding-bottom: 10px;
+    width: 350px;
+    height: 233.58px;
+    border-bottom: 1.5px solid #E4E6EB;
+}
+
+.card_thumbnail:hover {
+    transition: 0.2s linear;
+    border-bottom: 1px solid black;
+}
+
+#thumbnail_img {
+    position: absolute;
+    width: 350px;
+    height: 233.58px;
+    z-index: 1;
+    opacity: 1;
+}
+
+#thumbnail_img:hover {
+    transition: 0.1s linear;
+    opacity: 0;
+}
+
+#imghover {
+    position: absolute;
+    width: 350px;
+    height: 233.58px;
+    background-size: contain;
+    z-index: 0;
+}
+
+#imghover:hover {
+    transition: 0.2s linear;
+    position: absolute;
+}
+
+.card_description {
+    font-family: 'Nanum Gothic Coding', monospace;
+    padding-top: 10px;
+}
+
+.card_description a {
+    color: #878787;
+}
+
+ul #card_detail {
+    margin-top: 15px;
+}
+
+li #card_itemdetail {
+    color: #878787;
+}
+
+input {
+    font-size: 100%;
+    color: #353535;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    text-rendering: auto;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    width: 13px;
+    height: 13px;
+    border: 0;
+}
+
+input[type=checkbox] {
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+
+.displaynone {
+    display: none !important;
+}
+
+.card_badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#new {
+    background-color: #66724E;
+    width: 30px;
+    height: 15px;
+    font-size: 11px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+    margin: 5px 5px 0 0;
+}
+
+#hot {
+    background-color: #F34C55;
+    width: 30px;
+    height: 15px;
+    font-size: 11px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+    margin: 5px 5px 0 0;
+}
+
+
+/* Item detail page */
+
+
+/* .item_detail {
+    width: 98%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item_imgs {
+    width: 50%;
+}
+
+.item_imgs #item_subimgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img#item_mainimg {
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+
+img#item_subimg {
+    width: 150px;
+    height: 100px;
+    margin: 0 5px;
+}
+
+.item_desc {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 8px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-color: #F4F3EF;
+    border-radius: 10px;
+    box-shadow: 0.5px 2px 2px #777777;
+}
+
+#item_name {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #EFEAE0;
+}
+
+#item_price {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+#detail_table {
+    margin-top: 10px;
+    width: 100%;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #EFEAE0;
+}
+
+caption {
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+    border-top: 2px solid #EFEAE0;
+}
+
+th {
+    float: left;
+    padding: 8px 0;
+    padding-right: 10px;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#item_quantities {
+    padding-top: 25px;
+} */

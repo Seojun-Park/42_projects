@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>42 chat</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <h1>42 chat</h1>
+    <form method="POST" action="login.php">
+        login : <input type="text" name="login" />
+        <br />
+        passwd : <input type="text" name="passwd" />
+        <br />
+        <br />
+        <div>
+            <input type="submit" value="Login" name="submit" />
+            <button type="button" onclick="location.href='create.html'">Sign up</button>
+        </div>
+    </form>
+    <div style="display: flex; justify-content: space-between; flex-direction: row; margin: 15px 30px;">
+        <iframe src="chat.php" width="40%" height="300px"></iframe>
+        <iframe src="speak.php" width="40%" height="300px"></iframe>
+    </div>
+    <a href="create.html">Create account</a>
+    <a href="modif.html">Modify account</a>
+</body>
+
+</html>

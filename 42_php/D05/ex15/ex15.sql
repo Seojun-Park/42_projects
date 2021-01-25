@@ -1,0 +1,1 @@
+select reverse(substr(telephone, 2)) AS rebmunenohp from distrib;

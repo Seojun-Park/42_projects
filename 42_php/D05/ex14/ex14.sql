@@ -1,0 +1,1 @@
+select etage_salle AS floor, SUM(nbr_siege) AS seats from salle GROUP BY etage_salle ORDER BY seats;

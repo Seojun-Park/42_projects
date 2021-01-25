@@ -1,0 +1,1 @@
+SELECT nom AS LASTNAME, prenom AS FIRSTNAME  FROM fiche_personne WHERE nom LIKE '%-%' OR prenom LIKE '%-%' ORDER BY nom, prenom ASC;

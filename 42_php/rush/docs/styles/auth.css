@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Nanum+Gothic+Coding&family=PT+Sans&family=Red+Rose:wght@300&family=Titillium+Web&display=swap');
+
+/*---------------------------------------- Common ----------------------------------------*/
+
+.authCont {
+    margin-top: 15px;
+    padding: 15px 8px;
+    min-height: 80vh;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#authTitle {
+    font-family: "Anton", sans-serif;
+    color: #D5544B;
+    font-size: 36px;
+    margin: 25px 0;
+}
+
+.authform {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+#signup_addr {
+    background-color: white;
+    border-radius: 4px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+#inputBox {
+    border-bottom: 1px solid gray;
+}
+
+
+/*---------------------------------------- login ----------------------------------------*/
+
+.loginBox {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: black;
+    box-shadow: 10px 10px 20px #e1e1e3;
+}
+
+.subBox {
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: black;
+    box-shadow: 12px 12px 24px #e1e1e3;
+    font-family: "PT Sans", sans-serif;
+}
+
+.subBox a {
+    color: #E6524B;
+}
+
+.subBox a:hover {
+    transition: 0.2s linear;
+    color: #E64B6B;
+}
+
+#loginButton {
+    width: 250px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FAC5BC;
+    color: #562334;
+}
+
+
+/*---------------------------------------- Sign up ----------------------------------------*/
+
+.signupBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: black;
+    box-shadow: 10px 10px 20px #e1e1e3;
+}
+
+#signupTable {
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signupTh {
+    border-right: 2px solid white;
+    font-family: "PT Sans", sans-serif;
+    padding-right: 15px;
+}
+
+#signupTd {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+    margin-left: 15px;
+}
+
+#tableinput {
+    background-color: white;
+    border-radius: 4px;
+    width: 250px;
+}
+
+#addrinput {
+    background-color: white;
+    border-radius: 4px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#buttons {
+    padding-top: 20px;
+}
+
+#signupButton {
+    width: 150px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FAC5BC;
+    color: #562334;
+    margin-right: 30px;
+}

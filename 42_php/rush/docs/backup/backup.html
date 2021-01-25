@@ -1,0 +1,83 @@
+<!-- nav bar -->
+
+<div class="header">
+    <div class="navbar">
+        <div class="cover"></div>
+        <div id="logo">
+            <a href="index.php">Logo</a></div>
+        <div class="col">
+            <div class="menu">
+                <div id="box">
+                    <a href="items.php">
+                        item1</a>
+                </div>
+                <div id="box">
+                    <a href="items.php">
+                        item2</a>
+                </div>
+                <div id="box">
+                    <a href="items.php">
+                        item3</a>
+                </div>
+                <div id="box">
+                    <a href="items.php">
+                        item4</a>
+                </div>
+                <div id="box">
+                    <a href="qna.php">
+                        QnA
+                    </a>
+                </div>
+            </div>
+            <div class="col_sm">
+                <div id="col_sm_box">
+                    <?php
+                                if ($login == FALSE) {
+                                ?>
+                        <a href="login.html">
+                        LOGIN</a>
+                        <?php
+                                } else {
+                                ?>
+                            <!-- <a href="#">LOGOUT</a> -->
+                            <form method="post">
+                                <input type="submit" name="logout" id="logout" value="LOGOUT" />
+                            </form>
+                            <?php
+                                    if (array_key_exists('logout', $_POST)) {
+                                        session_destroy();
+                                        echo "<meta http-equiv='refresh' content='0;url=index.php'>";
+                                    }
+                                }
+                                ?>
+                </div>
+                <div id="col_sm_box">
+                    <?php
+                                if ($login == FALSE) {
+                                ?>
+                        <a href="signup.html">
+                        JOIN US
+                    </a>
+                        <?php
+                                } else {
+                                ?>
+                            <a href="#">MY PAGE</a>
+                            <?php
+                                }
+                                ?>
+                </div>
+                <div id="col_sm_box">
+                    <a href="cart.php">
+                        CART
+                    </a>
+                </div>
+                <div id="col_sm_box">
+                    <a href="mypage.html">
+                        MY PAGE
+                    </a>
+                </div>
+                <img src="https://img.icons8.com/ios/16/000000/search--v1.png" id="searchIcon" />
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+SELECT count(*) AS 'nb_short_films' FROM film WHERE duree_min <= 42;

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Nanum+Gothic+Coding&family=PT+Sans&family=Red+Rose:wght@300&family=Titillium+Web&display=swap');
+.qna_board {
+    height: 60vh;
+    font-family: 'Nanum Gothic Coding', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qna_board_head {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.qna_board_table {
+    width: 97%;
+    border: none;
+    border-top: 3px solid #69737C;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    border-collapse: collapse;
+}
+
+.qna_board_table th {
+    font-weight: bolder;
+    color: black;
+    background-color: #f2f2f2;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.qna_board_table tbody td {
+    color: black;
+    vertical-align: middle;
+    border-bottom: 1px solid #E0E0E0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+.qna_board_table tbody td#td_title {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.qna_board_table tfoot {
+    padding-top: 17px;
+    padding-bottom: 12px;
+    word-spacing: 9px;
+    text-align: center;
+}
+
+.qna_board_table tfoot a:link {
+    font-size: 12px;
+    color: #4F5B65;
+}
+
+.qna_board_table tfoot a:visited {
+    font-size: 12px;
+    color: #4F5B65;
+}
+
+.qna_board_table tfoot a:active {
+    font-size: 12px;
+    color: #4F5B65;
+}
+
+.qna_board_table tfoot a:hover {
+    font-size: 12px;
+    color: #FA3333;
+}

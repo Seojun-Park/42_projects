@@ -1,0 +1,1 @@
+SELECT id_film,titre, resum from film where LOCATE('Vincent', resum) ORDER BY id_film ASC;
